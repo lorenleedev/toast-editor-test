@@ -22,7 +22,7 @@ jobs:
       - name: Use node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version-file: .nvmrc
 
       - name: Cache node_modules
         id: cache
